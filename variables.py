@@ -19,31 +19,31 @@ class Config(object):
 
     # <================================================ REQUIRED ======================================================>
     # Telegram API configuration
-    API_ID = 204 # Get this value from my.telegram.org/apps
-    API_HASH = ""
+    API_ID = 9429810 # Get this value from my.telegram.org/apps
+    API_HASH = "06007846a1793a9883596434b299d0ed"
 
     # Database configuration (PostgreSQL)
-    DATABASE_URL = "postgres:"
+    DATABASE_URL = "postgresql://leothebadass_user:MUO2pxmgRnZ6FRm7KIncrJAMu7hcOvs0@dpg-d08paqp5pdvs739oghig-a.oregon-postgres.render.com/leothebadass"
 
     # Event logs chat ID and message dump chat ID
-    EVENT_LOGS = -100
-    MESSAGE_DUMP = -100
+    EVENT_LOGS = -1002350016913
+    MESSAGE_DUMP = -1002350016913
 
     # MongoDB configuration
-    MONGO_DB_URI = ""
+    MONGO_DB_URI = "mongodb+srv://demonxyonko:<db_password>@rickycyan.fswqzgl.mongodb.net/?retryWrites=true&w=majority&appName=rickycyan"
 
     # Support chat and support ID
-    SUPPORT_CHAT = ""
-    SUPPORT_ID = -100
+    SUPPORT_CHAT = "MaeveBot69"
+    SUPPORT_ID = -1002350016913
 
     # Database name
-    DB_NAME = ""
+    DB_NAME = "leothebadass"
 
     # Bot token
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "8165286998:AAGoGo95kzPt_yPQ_b16h2yhEPDj26yNY2E"  # Get bot token from @BotFather on Telegram
 
     # Owner's Telegram user ID (Must be an integer)
-    OWNER_ID = 5907205317
+    OWNER_ID = 7039652738
     # <=======================================================================================================>
 
     # <================================================ OPTIONAL ======================================================>
