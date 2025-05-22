@@ -5,6 +5,14 @@ from pymongo.errors import PyMongoError
 
 from Mikobot import DB_NAME, LOGGER, MONGO_DB_URI
 
+from pymongo import MongoClient
+import certifi
+
+MONGO_URI = "your-mongo-uri"
+
+client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
+db = client["your-db-name"]
+
 try:
     Mikobot_db_client = MongoClient(MONGO_DB_URI)
 except PyMongoError as f:
