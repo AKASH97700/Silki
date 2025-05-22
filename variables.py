@@ -40,7 +40,7 @@ class Config(object):
     DB_NAME = "leothebadass"
 
     # Bot token
-    TOKEN = "7237846616:AAFi4hJUw-WEjWQSBfg0G9RoL59nkqcmLq0"  # Get bot token from @BotFather on Telegram
+    TOKEN = "7534266241:AAEvoRvWjrQlUy3P4cwUl3PEkTlmX7S-lIQ"  # Get bot token from @BotFather on Telegram
 
     # Owner's Telegram user ID (Must be an integer)
     OWNER_ID = 7039652738
