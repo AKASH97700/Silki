@@ -12,6 +12,8 @@ bleach==6.2.0
 # ==== C ====
 cachetools==5.5.0
 
+certifi
+
 cockroachdb
 
 # ==== D ====
