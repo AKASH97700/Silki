@@ -1,6 +1,8 @@
-from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
+from motor.motor_asyncio import AsyncIOMotorClient
+import certifi
 
-from Mikobot import DB_NAME, MONGO_DB_URI
+# Use certifi for secure CA bundle
+MONGO_URI = "your-mongo-uri"
 
-mongo = MongoClient(MONGO_DB_URI)
-dbname = mongo[DB_NAME]
+client = AsyncIOMotorClient(MONGO_URI, tlsCAFile=certifi.where())
+db = client["your-db-name"]
