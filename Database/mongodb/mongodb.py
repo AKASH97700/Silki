@@ -8,7 +8,7 @@ from Mikobot import DB_NAME, LOGGER, MONGO_DB_URI
 from pymongo import MongoClient
 import certifi
 
-MONGO_URI = "your-mongo-uri"
+MONGO_URI = "mongodb+srv://demonxyonko:<db_password>@rickycyan.fswqzgl.mongodb.net/?retryWrites=true&w=majority&appName=rickycyan"
 
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client["your-db-name"]
