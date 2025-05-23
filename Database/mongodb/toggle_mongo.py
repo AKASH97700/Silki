@@ -1,5 +1,8 @@
 from Database.mongodb.db import *
+from pymongo import MongoClient
 
+client = MongoClient("mongodb+srv://demonxyonko:<db_password>@rickycyan.fswqzgl.mongodb.net/?retryWrites=true&w=majority&appName=rickycyan")  # Replace with actual URI
+dbname = client["leothebadass"]  # Replace with your DB name
 dwelcomedb = dbname.dwelcome
 nsfwdb = dbname.nsfw
 nekomodedb = dbname.nekomode
